@@ -1,0 +1,237 @@
+.h1-portfolio {
+    font-size: 2.5rem;
+    font-family: "Montserrat";
+    font-weight: normal;
+    color: #444;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.wrapper-portfolio {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 80rem;
+}
+
+.cols-portfolio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.col-portfolio {
+    width: calc(30% - 2rem);
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.container-portfolio {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.front-portfolio {
+    /* background-image: url(); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.front1 {
+    background-image: url(../../Assets/projectOne.png);
+}
+
+.front2 {
+    background-image: url(../../Assets/projectTwo.png);
+}
+
+.front3 {
+    background-image: url(../../Assets/projectThree.png);
+}
+
+.front4 {
+    background-image: url(../../Assets/projectFour.png);
+}
+
+.front5 {
+    background-image: url(../../Assets/projectFive.png);
+}
+
+.front6 {
+    background-image: url(../../Assets/projectSix.png);
+}
+
+.front7 {
+    background-image: url(../../Assets/projectSeven.png);
+}
+
+.front8 {
+    background-image: url(../../Assets/projectEight.png);
+}
+
+.front-portfolio,
+.back-portfolio {
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-position: center;
+    -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
+        -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+    min-height: 280px;
+    height: auto;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.back-portfolio {
+    background: #05384e;
+    background: -webkit-linear-gradient(45deg, #063152 0%, #1c779e 100%);
+    background: -o-linear-gradient(45deg, #0b304d 0%, #136588 100%);
+    background: linear-gradient(45deg, #183952 0%, #13698d 100%);
+}
+
+.front-portfolio:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: block;
+    opacity: 0.6;
+    background-color: #000;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.container-portfolio:hover .front-portfolio,
+.container-portfolio:hover .back-portfolio {
+    -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
+        -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.back-portfolio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.inner-portfolio {
+    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+    transform: translateY(-50%) translateZ(60px) scale(0.94);
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    padding: 2rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 1px solid transparent;
+    -webkit-perspective: inherit;
+    perspective: inherit;
+    z-index: 2;
+}
+
+/* Rotate the back of the card */
+.container-portfolio .back-portfolio {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.container-portfolio .front-portfolio {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* Rotate the card end */
+
+/* Rotate the front of the card */
+.container-portfolio:hover .back-portfolio {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.container-portfolio:hover .front-portfolio {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* Rotate the card end */
+.front-portfolio .inner-portfolio p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.front-portfolio .inner-portfolio p:after {
+    content: "";
+    width: 5%;
+    height: 1%;
+    position: absolute;
+    background: #c6d4df;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -0.75rem;
+}
+
+.front-portfolio .inner-portfolio span {
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.back-portfolio span {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 64rem) {
+    .col-portfolio {
+        width: calc(33.333333% - 2rem);
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .col-portfolio {
+        width: calc(50% - 2rem);
+    }
+}
+
+@media screen and (max-width: 32rem) {
+    .col-portfolio {
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+}
+
+
