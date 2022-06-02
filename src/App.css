@@ -9,6 +9,9 @@
     background-color:#f5f7ff;
 
 }
+.active{
+    color:rgb(83, 5, 5)
+}
 .custom-border {
     border-bottom: 10px double #ffffff;
 }

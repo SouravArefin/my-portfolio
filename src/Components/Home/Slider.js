@@ -8,7 +8,7 @@ const Slider = () => {
   
     const link="https://drive.google.com/uc?export=download&id=1q-VAmD7vldWstCHciLz8xOzjloQFBZhJ"
     return (
-        <div className='container ml-16 lg:flex justify-between items-center mt-10 md:mt-15 height px-7 md:px-0'>
+        <div className='container md:ml-16 ml-10 lg:flex justify-between items-center mt-10 md:mt-15 height px-7 md:px-0'>
             <div
                 //  data-aos="fade-right"
                 // data-aos-offset="300"
