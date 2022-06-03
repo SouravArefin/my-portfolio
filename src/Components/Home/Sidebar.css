@@ -21,9 +21,12 @@ ul.list-items li {
     color: rgb(46, 44, 44);
     font-size: 30px;
     margin-top: 10px;
+    
 }
 .github:hover{
-    color: rgb(224, 206, 206);
+    color: rgb(255, 254, 254);
+   
+    
    
 }
 .linkedin{
@@ -69,15 +72,21 @@ dl, ol, ul {
 }
 .list-unstyled li a{
 
-   background-color: white;
+   /* background-color: rgb(250, 248, 248); */
    padding: 2px 7px;
-   border-radius: 100%;
-   text-align: center;
-   transition: .4s !important;
   
+   text-align: center;
+   transition: all 0.5s ease-in-out;
+   background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 18.5px );
+   -webkit-backdrop-filter: blur( 18.5px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .list-unstyled li a:hover{
     background-color: #1e3f64;
-    transition: .4s !important;
+    transform:scale(1.5) !important;
     color: white;
+    margin-left:15px;
 }

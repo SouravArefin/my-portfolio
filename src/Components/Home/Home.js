@@ -1,8 +1,9 @@
 import React from 'react';
-import Particles from 'react-particles-js';
+
 import Contact from '../Contact/Contact';
 import Features from '../Features/Features';
 import Portfolio from '../Portfolio/Portfolio';
+import Skill from '../Skills/Skill';
 import Slider from './Slider';
 
 
@@ -60,7 +61,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Portfolio></Portfolio>
+        <Portfolio></Portfolio>
+        <h1></h1>
+        <Skill/>
             <Contact></Contact>
         </div>
     );

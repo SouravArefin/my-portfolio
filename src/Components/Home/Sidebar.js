@@ -13,7 +13,7 @@ const Sidebar = () => {
             <section >
               
 
-                <div className="social-bar d-none d-md-block pl-2">
+                <div className="social-bar d-none d-md-block pl-2 z-50">
                     <ul className="list-unstyled">
                         <li><a title="GITHUB" href="https://github.com/Sourav123-sys" target="_blank">
                             < FontAwesomeIcon className="github" icon={faGithub} />
