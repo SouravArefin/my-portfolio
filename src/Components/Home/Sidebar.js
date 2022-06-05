@@ -2,12 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './Sidebar.css';
-import { faEnvelope, faMailBulk, faVoicemail } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFile, faFileUpload, faMailBulk, faVoicemail } from '@fortawesome/free-solid-svg-icons';
 
 
 const Sidebar = () => {
 
-
+    const link="https://drive.google.com/uc?export=download&id=1q-VAmD7vldWstCHciLz8xOzjloQFBZhJ"
     return (
         <main className="project">
             <section >
@@ -15,6 +15,9 @@ const Sidebar = () => {
 
                 <div className="social-bar d-none d-md-block pl-2 z-50">
                     <ul className="list-unstyled">
+                    <li><a title="RESUME" className="RESUME ml-2"href={link}>
+                    <FontAwesomeIcon icon={faFile} />
+                        </a></li>
                         <li><a title="GITHUB" href="https://github.com/Sourav123-sys" target="_blank">
                             < FontAwesomeIcon className="github" icon={faGithub} />
                         </a></li>

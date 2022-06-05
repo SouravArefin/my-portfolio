@@ -2,8 +2,10 @@ import React from 'react';
 
 import Contact from '../Contact/Contact';
 import Features from '../Features/Features';
+import GetTouch from '../GetInTouch/GetTouch';
 import Portfolio from '../Portfolio/Portfolio';
 import Skill from '../Skills/Skill';
+import Skills from './Skills';
 import Slider from './Slider';
 
 
@@ -62,9 +64,10 @@ const Home = () => {
                 </div>
             </div>
         <Portfolio></Portfolio>
-        <h1></h1>
-        <Skill/>
-            <Contact></Contact>
+       
+        <Skills />
+        <GetTouch/>
+          
         </div>
     );
 };

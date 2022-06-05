@@ -18,7 +18,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-between md:block">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
-                                <h1 className='text-4xl cursor-pointer logo' onClick={() => navigate('/')}>Sourav <span>Arefin</span></h1>
+                                <h1 className='text-4xl  font-bold  inline  my-name bg-white cursor-pointer logo' onClick={() => navigate('/')}>Sourav <span>Arefin</span></h1>
                             </div>
                             <div  className=" hidden md:flex justify-between md:ml-auto">
                                 <div className="nav-item ml-10 flex items-baseline space-x-4 text-lg">
@@ -46,6 +46,12 @@ const Navbar = () => {
                                         className="nav-btn px-3 py-2 rounded-md text-sm font-medium uppercase"
                                     >
                                         Blog
+                                    </NavLink>
+                                    <NavLink
+                                        to="/about"
+                                        className="nav-btn px-3 py-2 rounded-md text-sm font-medium uppercase"
+                                    >
+                                        About
                                     </NavLink>
 
                                     <NavLink
@@ -143,6 +149,12 @@ const Navbar = () => {
                                     className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
                                 >
                                     Blog
+                                </NavLink>
+                                <NavLink
+                                    to="/about"
+                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
+                                >
+                                 About
                                 </NavLink>
 
 

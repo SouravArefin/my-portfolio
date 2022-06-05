@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import shape from '../../../Assets/curveAsymmetrical.svg'
-
+import { faEnvelope, faFile, faFileUpload, faMailBulk, faPhone, faVoicemail } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
     return (
         <div className='mt-14 '>
@@ -10,8 +11,8 @@ const Footer = () => {
                 <div className="custom-shape-divider-top-1653206227">
                     <img src={shape} alt="" />
                 </div>
-                <div className="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
-                    <div className='ml-14'>
+                <div className="ml-20 grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
+                    <div className=''>
                         <h2 className="mb-6 text-sm font-semibold text-gray-400 logo uppercase">Sourav Arefin</h2>
                         <ul className="text-gray-300 ml-[-18px]">
                             <li className="mb-4">
@@ -26,51 +27,34 @@ const Footer = () => {
                         <h2 className="mb-6 text-sm font-semibold text-gray-400 uppercase">Social</h2>
                         <ul className="text-gray-300 ml-[-18px]">
                             <li className="mb-4">
-                                <Link to="#" className="hover:underline">Facebook
-                                </Link>
+                            <a href="https://www.facebook.com/profile.php?id=100013452185380" target='_blank' className="hover:underline">Facebook
+                                </a>
                             </li>
                             <li className="mb-4">
-                                <Link to="#" className="hover:underline">Linkedin
-                                </Link>
+                            <a href="https://www.linkedin.com/in/sourav-arefin-35a462206/" target='_blank' className="hover:underline">Linkedin
+                                </a>
                             </li>
-                            <li className="mb-4">
-                                <Link to="#" className="hover:underline">Contact Me</Link>
-                            </li>
+                          
                         </ul>
                     </div>
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-400 uppercase">Legal</h2>
+                       
                         <ul className="text-gray-300 ml-[-18px]">
                             <li className="mb-4">
-                                <Link to="#" className="hover:underline">Privacy Policy</Link>
+                            <FontAwesomeIcon icon={faEnvelope} /> Khansourav58@gmail.com
                             </li>
                             <li className="mb-4">
-                                <Link to="#" className="hover:underline">Licensing</Link>
+                            <FontAwesomeIcon icon={faPhone} /> (+880)185857886,1798406271
                             </li>
-                            <li className="mb-4">
-                                <Link to="#" className="hover:underline">Terms &amp; Conditions</Link>
-                            </li>
+                       
                         </ul>
                     </div>
-                    <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-400 uppercase">Apps I build</h2>
-                        <ul className="text-gray-300 ml-[-18px]">
-                            <li className="mb-4">
-                                <Link to="#" className="hover:underline">iOS</Link>
-                            </li>
-                            <li className="mb-4">
-                                <Link to="#" className="hover:underline">Android</Link>
-                            </li>
-                            <li className="mb-4">
-                                <Link to="#" className="hover:underline">Windows</Link>
-                            </li>
-                        </ul>
-                    </div>
+                 
                 </div>
                 <div className=" py-6 px-4 bg-black md:flex md:items-center md:justify-between">
                     <span className="ml-14 text-sm text-gray-300 sm:text-center">© 2022 <Link to="https://github.com/Sourav123-sys">Sourav Arefin</Link> | All Rights Reserved.
                     </span>
-                    <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
+                    <div className="ml-14 flex mt-4 space-x-6 sm:justify-center md:mt-0">
                         <a href="https://www.facebook.com/profile.php?id=100013452185380" target='_blank'className="text-gray-400 hover:text-white">
                             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd"></path></svg>
                         </a>

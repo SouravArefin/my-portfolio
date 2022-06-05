@@ -25,9 +25,18 @@ ul.list-items li {
 }
 .github:hover{
     color: rgb(255, 254, 254);
-   
+
+}
+.RESUME{
+    color: rgb(243, 10, 10);
+    font-size: 30px;
+    margin-top: 10px;
     
-   
+    
+}
+.RESUME:hover{
+    color: rgb(255, 254, 254);
+
 }
 .linkedin{
     color:#0077b5;

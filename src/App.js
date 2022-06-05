@@ -10,6 +10,8 @@ import Navbar from './Components/Shared/Navbar/Navbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Sidebar from './Components/Home/Sidebar';
+import { ToastContainer, toast } from 'react-toastify';
+import About from './Components/Home/About';
 function App() {
   return (
     <div>
@@ -21,8 +23,10 @@ function App() {
         <Route path="/features" element={<FeaturesPage />}></Route>
         <Route path="/portfolio" element={<PortfolioPage />}></Route>
         <Route path="/contact-me" element={<Contact />}></Route>
+        <Route path="/about" element={<About/>}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer/>
     </div>
   );
 }

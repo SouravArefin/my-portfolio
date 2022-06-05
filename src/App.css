@@ -10,7 +10,7 @@
 
 }
 .active{
-    color:rgb(240, 232, 232)
+    color:rgb(247, 0, 53)
 }
 .custom-border {
     border-bottom: 10px double #ffffff;
@@ -53,12 +53,43 @@ ul li a {
     padding: .2rem 1.2rem;
 
 }
+.my-name {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgb(0 0 0 / 40%) 1px 2px 1px;
+}
 
+.skill-color{
+    color:black !important;
+}
+.get-touch{
+    padding: 8px 25px;
+    border: 2px solid #ff35b4 !important ;
+    border-radius: 5px;
+    color: black !important;
+    font-size: 20px;
+    font-family: arial;
+    background-color: rgba(255, 255, 255, 0) !important;
+    margin-left: 5px;
+    transition: all ease-in 2s;
+    transition: ease 2s;
+
+}
+
+.get-touch:hover{
+    background: linear-gradient(
+        45deg
+        ,#ff35b4,#ff193f);
+        border: 2px solid #6047ec ;
+        text-decoration: none;
+}
 .nav-btn {
     text-decoration: none;
     padding: .4rem 1rem;
     position: relative;
     transition: .3s ease-in .4s;
+    color:rgb(11, 120, 128)
 }
 
 .nav-btn::before {

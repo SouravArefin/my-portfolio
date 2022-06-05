@@ -2,11 +2,11 @@ import React from "react";
 import './Portfolio.css';
 import shape from '../../Assets/triangleAsymmetrical.svg'
 
-const Portfolio = () => {
+const Portfolio = () => { 
     return (
-        <div className="bg-primary pb-20 mt-20">
+        <div className="bg-primary pb-20 mb-20 ">
             <img src={shape} alt="" />
-            <h1 className="text-4xl glass-header w-fit mx-auto pb-4 text-white font-bold text-center mt-20 mb-10">My Projects</h1>
+            <h1 className="text-4xl glass-header w-fit mx-auto pb-4 text-white font-bold text-center mt-20 mb-10 ">My Projects</h1>
             <div className="wrapper-portfolio">
                 <div className="cols-portfolio">
                     <div className="col-portfolio" ontouchstart="this.classList.toggle('hover');">
