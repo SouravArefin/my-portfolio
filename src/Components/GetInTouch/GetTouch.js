@@ -15,7 +15,7 @@ const GetTouch = () => {
             <div className="text-center">
             <div data-aos="fade-right">   <h1 className='text-style text-4xl' >Get In Touch</h1></div>
              
-                <p className="text-xl mb-5">I'd like to hear from you. Regardless of whether you suffer a heart attack or simply need to say hey, go ahead and drop a message. I'll make an honest effort to hit you up!</p>
+                <p className="md:text-xl mb-5 text-sm">I'd like to hear from you. Regardless of whether you suffer a heart attack or simply need to say hey, go ahead and drop a message. I'll make an honest effort to hit you up!</p>
                 <Link to="/contact-me">
                     <button className=" get-touch btn-success mb-5">Say hi  ! </button>
                 </Link>

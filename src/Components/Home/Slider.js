@@ -34,7 +34,8 @@ const Slider = () => {
                     className="md:text-4xl text-style text-2xl font-bold text-cyan-700"
                 />
                 <p className='text-style  custom-line-height text-gray-500 mt-7 mb-5'>
-                A self-spurred and energetic web developer with a profound interest in JavaScript. To work in the Software business with current web innovations of various neighborhood and worldwide Software/IT offices of Bangladesh and develop quickly with expanding duties.
+                    A self-spurred and energetic web developer with a profound interest in JavaScript. To work in the Software business with current web innovations of various neighborhood and worldwide Software/IT offices of Bangladesh and develop quickly with expanding duties.
+                    {/* Be confident, stay hungry and stay curious then world will be yours. */}
                 </p>
                 <Link to='/about'rel="noopener noreferrer"><button className='btn btn-outline btn-secondary font-semibold resume-button px-10 py-1'>About Me</button></Link>
                 <a href={link} rel="noopener noreferrer">
@@ -53,11 +54,9 @@ const Slider = () => {
                 <img id='back-image' className='ing1 md:w-2/5 mx-auto lg:w-full absolute md:bottom-[-10px] top-0' src={bulb} alt="" />
                 <img
                 
-                    
-                    
                     className='lg:w-2/3 md:w-1/2 sm:w-2/3  mx-auto absolute top-12 md:top-[5%] lg:left-10 md:left-36 img2 -mt-10' src={myImage} alt="" />
             </div>
-            <div className="dotted-bg hidden sm:block"></div>
+ 
         </div>
     );
 };

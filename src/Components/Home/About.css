@@ -14,9 +14,7 @@
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
-.page-title{
-    margin: 10px 0px;
-}
+
 
 .page-title h3 {
     border-bottom: 2px solid blue;
@@ -45,5 +43,6 @@
   color:white;
   padding:10px;
   border-radius: 10px;
-  text-align:center
+  text-align:center;
+  box-shadow: 14px 16px 46px -15px #131414;
 }

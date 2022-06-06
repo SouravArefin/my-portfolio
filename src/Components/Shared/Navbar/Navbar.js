@@ -126,33 +126,33 @@ const Navbar = () => {
                             <div ref={ref} className="mobile-nav px-2 pt-2 pb-3 space-y-1 sm:px-3">
                                 <NavLink
                                     to="/"
-                                    className="hover:bg-gray-700 hover:text-white text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
+                                    className="hover:bg-gray-700 hover:text-white text-[#405A68] block px-3 py-2 rounded-md text-base font-medium uppercase"
                                 >
                                     Home
                                 </NavLink>
                                 <NavLink
                                     to="/features"
-                                    className="hover:bg-gray-700 hover:text-white text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
+                                    className="hover:bg-gray-700 hover:text-white text-[#405A68] block px-3 py-2 rounded-md text-base font-medium uppercase"
                                 >
                                     Features
                                 </NavLink>
 
                                 <NavLink
                                     to="/portfolio"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
+                                    className="text-[#405A68] hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
                                 >
                                     portfolio
                                 </NavLink>
 
                                 <NavLink
                                     to="/blog"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
+                                    className="text-[#405A68] hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
                                 >
                                     Blog
                                 </NavLink>
                                 <NavLink
                                     to="/about"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
+                                    className="text-[#405A68] hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
                                 >
                                  About
                                 </NavLink>
@@ -161,7 +161,7 @@ const Navbar = () => {
 
                                 <NavLink
                                     to="/contact-me"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
+                                    className="text-[#405A68] hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
                                 >
                                     Contact
                                 </NavLink>
