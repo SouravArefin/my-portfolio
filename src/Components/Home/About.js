@@ -33,18 +33,19 @@ const About = () => {
                         className="mr-20 ml-20">
                           <div
             
-            data-aos="fade-left"
+            
            
                className='flex-1 images md:overflow-hidden w-full'>
-               <img id='back-image' className='ing1 md:w-1/5 mx-auto lg:w-full absolute md:bottom-[-10px] top-0' src={bulb} alt="" />
+               <img id='back-image' className='ing1  md:w-1/5 mx-auto lg:w-full absolute md:bottom-[-10px] top-0' src={bulb} alt="" />
                <img
                
                    className='lg:w-2/3 md:w-1/2 sm:w-2/3  mx-auto absolute top-12  lg:left-10 md:left-36 img2 -mt-10' src={souravImg} alt="" />
            </div>
 
                         <div 
-                            className='md:mt-[-80px]'
-                            data-aos="fade-up"
+                             data-aos="fade-up"
+                            className='mt-[-80px]'
+                           
                             data-aos-anchor-placement="top-bottom">
                            
                             <h2 style={{ color: '#384764', fontFamily: 'arial', fontWeight: '600' }} className="p-3"> <span style={{ color: '#ea37bb' }}>I'm</span> SOURAV AREFIN</h2>

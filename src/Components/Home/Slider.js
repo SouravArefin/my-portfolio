@@ -12,7 +12,7 @@ const Slider = () => {
   
     const link="https://drive.google.com/uc?export=download&id=1q-VAmD7vldWstCHciLz8xOzjloQFBZhJ"
     return (
-        <div className='container md:ml-16 ml-10 lg:flex justify-between items-center mt-10 md:mt-15 height px-7 md:px-0'>
+        <div className='container md:ml-16 ml-7 lg:flex justify-between items-center mt-10 md:mt-15 height px-7 md:px-0'>
              
             <div
               
@@ -37,12 +37,17 @@ const Slider = () => {
                     A self-spurred and energetic web developer with a profound interest in JavaScript. To work in the Software business with current web innovations of various neighborhood and worldwide Software/IT offices of Bangladesh and develop quickly with expanding duties.
                     {/* Be confident, stay hungry and stay curious then world will be yours. */}
                 </p>
+                <div className="flex ">
                 <Link to='/about'rel="noopener noreferrer"><button className='btn btn-outline btn-secondary font-semibold resume-button px-10 py-1'>About Me</button></Link>
-                <a href={link} rel="noopener noreferrer">
                
-               <button className='btn ml-5 btn-outline btn-secondary font-semibold resume-button px-10 py-1'>
-               <FontAwesomeIcon  icon={faDownload} />
-               <span className="ml-2">Download Resume</span></button></a>
+               <a href={link} rel="noopener noreferrer">
+              
+              <button className='btn ml-5 btn-outline btn-secondary font-semibold resume-button md:px-10 py-1'>
+              <FontAwesomeIcon  icon={faDownload} />
+              <span className="ml-2">Download Resume</span></button></a>
+
+                </div>
+          
 
             </div>
 

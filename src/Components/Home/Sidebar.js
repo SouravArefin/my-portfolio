@@ -13,7 +13,10 @@ const Sidebar = () => {
             <section >
               
 
-                <div className="social-bar d-none d-md-block pl-2 z-50">
+                <div
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                    className="social-bar d-none  d-md-block pl-2 z-50">
                     <ul className="list-unstyled">
                     <li><a title="RESUME" className="RESUME ml-2"href={link}>
                     <FontAwesomeIcon icon={faFile} />
